@@ -1,8 +1,10 @@
+//today's question
+
 function convertCurrency(amount, sCurrency, tCurrency) {
    
     const exchangeRates = {
         USD: 1,
-        RWF: 1000,
+        RWF: 100,
     };
 
     const sRate = exchangeRates[sCurrency];
